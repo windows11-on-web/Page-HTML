@@ -1,0 +1,32 @@
+.get-started-get-started {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 56px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: #000000;
+}
+.get-started-get-started:hover {
+  background-color: #5228F5;
+}
+.get-started-text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 991px) {
+  .get-started-get-started {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .get-started-get-started {
+    display: none;
+  }
+}
